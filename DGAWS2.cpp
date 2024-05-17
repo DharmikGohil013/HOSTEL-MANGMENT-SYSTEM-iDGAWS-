@@ -6,8 +6,6 @@
 #include <vector>
 #include <stdlib.h>
 #include <string>
-//#include <graphics.h>
-
 using namespace std;
 int main1();
 void profile(int n1, int p1);
@@ -17,7 +15,6 @@ void daily_dairy(int n1,int p1);
 void show_daily(int d1);
 void display_all11();
 void modify_account1(int n1,int p1);
-
 class hostel
 {
     private:
@@ -294,13 +291,7 @@ void hostel::show_account1() const
 }
 void logo()
 {
-//    initwindow(600,500,"TUTORIAL");
-//    SetBkColor(BLACK);
-//    cleardevice();
     system("cls");
-    //HENDLE h= GetStdHandle(STD_OUTPUT_HANDLE);
-     //SetConsoleTextAttribute(h,1);
-     //readimagefile(LOO.jpg,100,100,100,100);
     cout<<"\n\n\n\t\t\t-------------------------------------------------------------------------";
     cout<<"\n\t\t\t-------------------------------------------------------------------------";
     cout<<"\n\t\t\t-------------------------------------------------------------------------";
@@ -749,8 +740,6 @@ void profile(int n1, int p1) {
         return;
     }
 }
-
-
 class account
 {
     int birth11;
